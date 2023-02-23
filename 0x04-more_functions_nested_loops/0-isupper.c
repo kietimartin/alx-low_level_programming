@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * _isupper - checks for uppercase letters and returns a value
- * @c: paramteter to be checked
- * Return : 0 (the test failed)
+ * _isupper - return 1 if parameter is uppercase
+ * @c: the parameter to check
+ * Return: 0 (Not success)
  */
 
 int _isupper(int c)
