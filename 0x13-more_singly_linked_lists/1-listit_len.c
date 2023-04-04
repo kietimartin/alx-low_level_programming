@@ -7,11 +7,11 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	int len = 0;
+	size_t nodes = 0;
 
 	while (h)
 	{
-		len++;
+		nodes++;
 		h = h->next;
 	}
 	return (len);
